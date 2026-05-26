@@ -11,12 +11,13 @@ heapq.heappush(heap, 5)
 
 print("Heap:", heap)
 
-# Smallest element
-print("Top Element:", heap[0])
+# Top element
+print("Smallest Element:", heap[0])
 
-# Remove smallest element
+# Remove top element
 removed = heapq.heappop(heap)
 
 print("Removed Element:", removed)
 
-print("Heap after deletion:", heap)s
+# Heap after deletion
+print("Heap after deletion:", heap)
